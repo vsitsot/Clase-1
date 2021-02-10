@@ -1,0 +1,26 @@
+SELECT *
+FROM Artist;
+
+
+SELECT *
+FROM Invoice
+WHERE BillingCountry = 'Germany';
+
+
+SELECT count (*)
+FROM Album ;
+
+
+SELECT count (*)
+FROM Customer
+WHERE Country = 'France' ;
+
+
+SELECT sum (total) 
+FROM  Invoice;
+
+
+SELECT avg (total)
+FROM  Invoice;
+
+
